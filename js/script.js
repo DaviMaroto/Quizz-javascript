@@ -208,7 +208,7 @@ function showSuccessMessage() {
 
 }
 
-// Reiniciar Quizz
+// functio que reinicia Quizz
 const restartBtn = document.querySelector("#restart");
 
 restartBtn.addEventListener("click", function () {
@@ -218,11 +218,11 @@ restartBtn.addEventListener("click", function () {
     init();
 });
 
-// Mostra ou exibe o quizz
+// Mostra o quizz
 function hideOrShowQuizz() {
     quizzContainer.classList.toggle("hide");
     scoreContainer.classList.toggle("hide");
 }
 
-// Inicialização
+
 init();
