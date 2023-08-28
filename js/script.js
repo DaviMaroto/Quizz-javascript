@@ -131,7 +131,7 @@ function createQuestion(i) {
 
     });
 
-    // Cria evento em todos os botões
+ 
     const buttons = answersBox.querySelectorAll("button");
 
     buttons.forEach(function (button) {
@@ -168,7 +168,7 @@ function checkAnswer(btn, buttons) {
 
 }
 
-// Exibe a próxima pergunta
+
 function nextQuestion() {
 
     // Timer para ver se acertou ou errou
@@ -223,6 +223,5 @@ function hideOrShowQuizz() {
     quizzContainer.classList.toggle("hide");
     scoreContainer.classList.toggle("hide");
 }
-
 
 init();
